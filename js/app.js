@@ -1,0 +1,2 @@
+selectedTile = document.querySelector('.selected');
+

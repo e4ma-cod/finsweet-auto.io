@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <title>Finsweet</title>
+</head>
+<body>
+    <!--Header Section-->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container d-flex justify-content-between">
+              <div>
+                <a class="navbar-brand" href="#"><img src="img/header-logo.png" alt="Finsweet"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>              
+              </div>
+              <div class="w-50 d-flex justify-content-between">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 body-02">
+                      <li class="nav-item me-3">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item me-3">
+                        <a class="nav-link link-dark" href="about.html">About us</a>
+                      </li>
+                      <li class="nav-item me-3">
+                        <a class="nav-link link-dark" href="services.html">Services</a>
+                      </li>
+                      <li class="nav-item me-3">
+                        <a class="nav-link link-dark" href="blog.html">Blog</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link link-dark" href="contact.html">Contact</a>
+                      </li>                  
+                    </ul>                
+                </div>
+                <div class="w-30 d-flex justify-content-between">
+                    <svg class="line mt-2" width="1" height="42" viewBox="0 0 1 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line opacity="0.36" x1="0.5" y1="2.18557e-08" x2="0.499998" y2="42" stroke="#939191"/>
+                    </svg>
+                    <div class="d-flex w-80 justify-content-between">
+                        <svg class="mt-2 line" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20" r="20" fill="#61C4A1"/>
+                            <path d="M27.76 23.9203C26.4636 22.8869 25.148 22.261 23.8675 23.2928L23.1029 23.9164C22.5435 24.3691 21.5034 26.4842 17.482 22.1728C13.4615 17.8668 15.854 17.1963 16.4143 16.7475L17.1831 16.1231C18.4568 15.089 17.9761 13.7871 17.0574 12.447L16.5031 11.6353C15.5802 10.2983 14.5753 9.4202 13.2982 10.4528L12.6081 11.0148C12.0437 11.398 10.4659 12.6437 10.0832 15.0101C9.62262 17.8496 11.0756 21.1011 14.4044 24.6688C17.7291 28.238 20.9842 30.0308 24.0677 29.9996C26.6303 29.9738 28.1779 28.6923 28.6619 28.2263L29.3545 27.6636C30.6282 26.6317 29.8368 25.5812 28.5396 24.5455L27.76 23.9203Z" fill="white"/>
+                        </svg>
+                        <p class="caption">Road Assistance <br>
+                        <span class="body-01">1800 265 24 52</span></p>                            
+                    </div>   
+                </div>                                                       
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Hero Section-->
+    <section id="hero-section">
+      <div class="container">
+        <div class="d-flex">
+            <div id="text-section" class="w-38 mt-5">
+                <h1 class="heading-h1">Get your vehicle service done online at one place</h1>
+                <a class="btn btn-orange mt-3" href="#services-section" role="button">Book a service</a>
+                <div class="d-flex justify-content-between w-75 mt-3">
+                  <svg class="mt-3" width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M26.4224 4.54586C23.5009 1.62414 19.6161 0.0151367 15.4844 0.0151367C11.3526 0.0151367 7.46789 1.62414 4.54635 4.54586C1.62462 7.4674 0.015625 11.3522 0.015625 15.4839C0.015625 19.6156 1.62462 23.5004 4.54635 26.4219C7.46789 29.3436 11.3526 30.9526 15.4844 30.9526C19.6161 30.9526 23.5009 29.3436 26.4224 26.4219C29.3441 23.5004 30.9531 19.6156 30.9531 15.4839C30.9531 11.3522 29.3441 7.4674 26.4224 4.54586ZM15.4844 28.5356C8.28778 28.5356 2.43262 22.6805 2.43262 15.4839C2.43262 8.28729 8.28778 2.43213 15.4844 2.43213C22.681 2.43213 28.5361 8.28729 28.5361 15.4839C28.5361 22.6805 22.681 28.5356 15.4844 28.5356ZM17.8009 16.1741L22.1979 20.5486L20.4932 22.2624L16.0435 17.835C15.8639 17.8778 15.677 17.9009 15.4844 17.9009C14.1496 17.9009 13.0674 16.8187 13.0674 15.4839C13.0674 14.6145 13.5266 13.8526 14.2155 13.4268V4.90955H15.424H16.6324V13.3566C17.3879 13.7654 17.9014 14.5645 17.9014 15.4839C17.9014 15.7237 17.8659 15.9552 17.8009 16.1741Z" fill="#E2E6E9"/>
+                  </svg>
+                  <p class="caption mt-2">
+                    We are open <br><span class="body-01">Monday to Friday 9:00 AM to  10:00  AM</span>
+                  </p>                                            
+                </div>
+            </div>
+            <div id="image-section" class="w-45">
+                <img src="img/header-image.png" alt="Finsweet Service" style="min-height: 68vh;">
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!--Why Section-->
+    <section id="why-section" style="background: #E2E6E9;">
+      <div class="container py-5">
+        <div class="d-flex py-5">
+          <div class="text-section">
+            <h2 class="heading-h2">We are taking car servicing seriously</h2>
+            <div class="d-flex justify-content-between w-75">
+              <img src="img/convenient-service.png" alt="" style="width: 47px;height: 47px;" class="me-3">                                     
+              <div class="mt-2">
+                <h5 class="fw-bold">Convenient service</h5>
+                <p>Through True Rich Attended does no end it
+                   his mother since real had half every him.</p>
+              </div>              
+            </div>
+            <div class="d-flex justify-content-between w-75">
+              <img src="img/expert-mechanics.png" class="me-3" alt="" style="width: 47px; height: 47px;">                                                     
+              <div class="mt-2">
+                <h5 class="fw-bold">Expert mechanics</h5>
+                <p>Through True Rich Attended does no end it
+                   his mother since real had half every him.</p>
+              </div>              
+            </div>
+            <div class="d-flex justify-content-between w-75">
+              <img src="img/transparent-pricing.png" class="me-3" alt="" style="width: 47px; height: 47px;">                                                                  
+              <div class="mt-2">
+                <h5 class="fw-bold">Transparent pricing</h5>
+                <p>Through True Rich Attended does no end it
+                   his mother since real had half every him.</p>
+              </div>              
+            </div>
+            <div class="d-flex ms-5 ps-3">
+              <p>Know more about us</p>
+              <svg class="mt-1 ms-2" width="53" height="16" viewBox="0 0 53 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M52.7071 8.70711C53.0976 8.31658 53.0976 7.68342 52.7071 7.29289L46.3431 0.928932C45.9526 0.538408 45.3195 0.538408 44.9289 0.928932C44.5384 1.31946 44.5384 1.95262 44.9289 2.34315L50.5858 8L44.9289 13.6569C44.5384 14.0474 44.5384 14.6805 44.9289 15.0711C45.3195 15.4616 45.9526 15.4616 46.3431 15.0711L52.7071 8.70711ZM0 9H52V7H0V9Z" fill="#1E1B1B"/>
+              </svg>                
+            </div>
+          </div>
+          <div class="form-section">
+            <h3 class="mb-5 heading-h3">Get a quote for the car service</h3>
+            <form action="">
+              <input type="text" placeholder="Enter your location" class="w-100 p-3 mb-2">
+              <input type="text" placeholder="Enter your name" class="w-100 p-3 mb-2">
+              <input type="tel" placeholder="Your phone number" class="w-100 p-3 mb-2">
+              <input type="email" placeholder="Enter your email" class="w-100 p-3 mb-5">
+            </form>
+            <a class="btn btn-orange mt-3" href="#" role="button">Get your quote</a>          
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Quote Section-->
+    <section id="quote-section" class="py-5">
+      <div class="container">
+        <div class="d-flex justify-content-between">
+          <div id="text-section" class="w-45 py-5 my-5">
+            <h2 class="heading-h2">We follow a clear process to help you out.</h2>
+            <p class=" body-02 mt-3">
+              Through True Rich Attended does no end it his mother since real had half every him case in packages enquire
+            </p>
+            <a class="btn btn-orange mt-3" href="about.html" role="button">Learn more</a>
+          </div>
+          <div id="quote-section" class="w-45 my-5">
+            <div class="d-flex mb-3">
+              <div class="me-3">
+                <img src="img/step-1.png" alt="Get a quote" style="width: 60px; height: 60px;">
+                <svg class="ms-30 mt-3" width="2" height="71" viewBox="0 0 2 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <line x1="1" y1="1" x2="0.999997" y2="70" stroke="#FF6433" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 4"/>
+                </svg>                                  
+              </div>
+              <div>
+                <h5 class="title-01">Get a Quote</h5>
+                <p class="body-01 mt-4 w-75">
+                  Through True Rich Attended does no end it his mother since real had half every.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mb-3">
+              <div class="me-3">
+                <img src="img/step-2.png" alt="Book an Appointment" style="width: 60px; height: 60px;">
+                <svg class="ms-30 mt-3" width="2" height="71" viewBox="0 0 2 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <line x1="1" y1="1" x2="0.999997" y2="70" stroke="#FF6433" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 4"/>
+                </svg>                                  
+              </div>
+              <div>
+                <h5 class="title-01">Book an Appointment</h5>
+                <p class="body-01 mt-4 w-75">
+                  Through True Rich Attended does no end it his mother since real had half every.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="me-3">
+                <img src="img/step-3.png" alt="Get your Service Done" style="width: 60px; height: 60px;">                                                
+              </div>
+              <div>
+                <h5 class="title-01">Get your Service Done</h5>
+                <p class="body-01 mt-4 w-75">
+                  Through True Rich Attended does no end it his mother since real had half every.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Services Section-->
+    <section id="services-section" class="py-5" style="background: #E2E6E9;">
+      <div class="container py-5 text-center">
+        <h5 class="title-02">What we Offer</h5>
+        <h2 class="heading-h2 mb-5">We offer full service auto repair & maintenance</h2>
+        <div class="grid text-center">
+          <div class="p-5 bg-white tile">
+            <img src="img/diagnostic-grid.png" class="img-fluid mt-3" alt="Diagnostics" style="height: 42px;">
+            <p class="title-02">Diagnostics</p>
+          </div>
+          <div class="p-5 bg-white tile">
+            <img src="img/repair-grid.png" class="img-fluid mt-3" alt="Engine Repair">
+            <p class="title-02">Engine Repair</p>
+          </div>
+          <div class="p-5 bg-white tile selected">
+            <img src="img/wheel-repair-grid.png" class="img-fluid mt-3" alt="Wheel Repair">
+            <p class="title-02">Wheel Repair</p>
+          </div>
+          <div class="p-5 bg-white tile">
+            <img src="img/oil-filter-grid.png" class="img-fluid mt-3" alt="Oil Filter">
+            <p class="title-02">Oil Filter</p>
+          </div>
+          <div class="p-5 bg-white tile">
+            <img src="img/body-work-grid.png" class="img-fluid mt-3" alt="Body Work">
+            <p class="title-02">Body Work</p>
+          </div>
+          <div class="p-5 bg-white tile">
+            <img src="img/batteries-grid.png" class="img-fluid mt-3" alt="Batteries">
+            <p class="title-02">Batteries</p>
+          </div>
+          <div class="p-5 bg-white tile">
+            <img src="img/insurance-claim-grid.png" class="img-fluid mt-3" alt="Insurance Claim">
+            <p class="title-02">Insurance Claim</p>
+          </div>
+          <div class="p-5 bg-white tile">
+            <img src="img/custom-service-grid.png" class="img-fluid mt-3" alt="Custom Service">
+            <p class="title-02">Custom Service</p>
+          </div>
+        </div>
+        <a href="services.html" class="nav-link">
+          <div class="d-flex justify-content-end mt-3">
+            <p class="body-01">Learn about services</p>
+            <svg class="ms-3 mt-2" width="53" height="16" viewBox="0 0 53 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M52.7071 8.70711C53.0976 8.31658 53.0976 7.68342 52.7071 7.29289L46.3431 0.928932C45.9526 0.538408 45.3195 0.538408 44.9289 0.928932C44.5384 1.31946 44.5384 1.95262 44.9289 2.34315L50.5858 8L44.9289 13.6569C44.5384 14.0474 44.5384 14.6805 44.9289 15.0711C45.3195 15.4616 45.9526 15.4616 46.3431 15.0711L52.7071 8.70711ZM0 9H52V7H0V9Z" fill="#1E1B1B"/>
+            </svg>            
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!--CTA Section-->
+    <section id="cta-section">
+      <div class="d-flex position-relative">
+        <div class="w-55">
+          <img src="img/car-in-touch.png" class="img-fluid" alt="Car service">
+        </div>
+        <div class="cta fs-2 fw-bold position-absolute start-50 w-38">
+          <p>Get in touch with us for your service related query</p>
+          <a class="btn btn-black mt-4" href="contact.html" role="button">Contact Us</a>          
+        </div>
+        <div class="w-55">
+          <img src="img/car-bonnet-intouch.png" class="img-fluid" alt="Car repair" style="height: 406.5px;">
+        </div>
+      </div>
+    </section>
+
+    <!--Experience section-->
+    <section id="experience" style="background: #E2E6E9;" class="p-5">
+      <div class="container">
+        <div class="d-flex justify-content-between">
+          <div>
+            <p class="title-02 text-light"><span class="heading-h2 text-purple">20+</span><br>Proffesional</p>
+          </div>
+          <div>
+            <p class="title-02 text-light"><span class="heading-h2 text-purple">10+</span><br>Years Eperience</p>
+          </div>
+          <div>
+            <p class="title-02 text-light"><span class="heading-h2 text-purple">12K+</span><br>Service Closed</p>
+          </div>
+          <div>
+            <p class="title-02 text-light"><span class="heading-h2 text-purple">100%</span><br>Customer Satisfaction</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Brands Section-->
+    <section id="brands">
+      <div class="container" style="padding: 90px 0px;">
+        <h2 class="text-center fw-bold fs-2">Brands we serve</h2>
+        <div class="brand-grid">
+          <img src="img/brand-1.png" class="img-fluid" alt="Brand-1">
+          <img src="img/brand-2.png" class="img-fluid" alt="Brand-2">
+          <img src="img/brand-3.png" class="img-fluid" alt="Band-3">
+          <img src="img/brand-4.png" class="img-fluid" alt="Brand-4">
+          <img src="img/brand-5.png" class="img-fluid" alt="Brand-5">
+          <img src="img/brand-1.png" class="img-fluid" alt="Brand-1">
+          <img src="img/brand-2.png" class="img-fluid" alt="Brand-2">
+          <img src="img/brand-3.png" class="img-fluid" alt="Brand-3">
+          <img src="img/brand-4.png" class="img-fluid" alt="Brand-4">
+          <img src="img/brand-5.png" class="img-fluid" alt="Brand-5">
+        </div>
+      </div>
+    </section>
+
+    <!--Reviews Section-->
+    <section id="reviews" class="py-10" style="background: #F2F2F2;">
+      <div class="container">
+        <div class="row justify-content-center mb-5">          
+          <div class="col-sm-9">
+            <h3 class="heading-h3 text-center">Our customers say the nicest things about our service</h3> 
+          </div>
+        </div>               
+        <div class="row justify-content-center">
+          <div class="col-sm-5">
+            <div class="card p-4">
+              <div class="card-body">
+                <div class="d-flex justify-content-between w-50 mb-2">
+                  <div class=""><img src="img/john-vallem.png" alt=""></div>
+                  <div class="mt-2">
+                    <h5 class="card-title">Jonathan Vallem</h5>
+                    <p>New york</p>
+                  </div>
+                </div>
+                <p class="card-text">I have got my car repaired at Finsweet many times before, 
+                  they are good at what they do. Not only did they repair my car in a short 
+                  comprehensive look on all the working</p>                
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-5">
+            <div class="card p-4">
+              <div class="card-body">
+                <div class="d-flex justify-content-between w-50 mb-2">
+                  <div class="me-2"><img src="img/smith-john.jpg" alt=""></div>
+                  <div class="mt-2">
+                    <h5 class="card-title">Smith Johnson</h5>
+                    <p>New york</p>
+                  </div>
+                </div>
+                <p class="card-text">I have got my car repaired at Finsweet many times before, 
+                  they are good at what they do. Not only did they repair my car in a short 
+                  comprehensive look on all the working</p>                
+              </div>
+            </div>
+          </div>
+        </div>       
+        <div class="d-flex justify-content-between">
+          <div class="col-sm-2 offset-md-5">
+            <div class="scroll d-flex justify-content-between mt-5 text-center">
+              <svg width="32" height="4" viewBox="0 0 32 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line y1="2" x2="32" y2="2" stroke="#939191" stroke-width="4"/>
+              </svg>
+              <svg width="32" height="4" viewBox="0 0 32 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line y1="2" x2="32" y2="2" stroke="#939191" stroke-width="4"/>
+              </svg>
+              <svg width="32" height="4" viewBox="0 0 32 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line y1="2" x2="32" y2="2" stroke="#FF6433" stroke-width="4"/>
+              </svg>                              
+              <svg width="32" height="4" viewBox="0 0 32 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line y1="2" x2="32" y2="2" stroke="#939191" stroke-width="4"/>
+              </svg>  
+            </div>
+          </div>
+          <div class="col-md-2 offset-md-2 mt-3">
+            <svg class="me-3" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="24" transform="rotate(-180 24 24)" fill="white"/>
+              <path d="M34.2852 25C34.8374 25 35.2852 24.5523 35.2852 24C35.2852 23.4477 34.8374 23 34.2852 23L34.2852 25ZM13.449 23.2929C13.0585 23.6834 13.0585 24.3166 13.449 24.7071L19.813 31.0711C20.2035 31.4616 20.8367 31.4616 21.2272 31.0711C21.6177 30.6805 21.6177 30.0474 21.2272 29.6569L15.5703 24L21.2272 18.3431C21.6177 17.9526 21.6177 17.3195 21.2272 16.9289C20.8367 16.5384 20.2035 16.5384 19.813 16.9289L13.449 23.2929ZM34.2852 23L14.1561 23L14.1561 25L34.2852 25L34.2852 23Z" fill="#1E1B1B"/>
+            </svg>
+            <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g filter="url(#filter0_i_482_1323)">
+              <circle cx="31" cy="31" r="31" fill="#1E1B1B"/>
+              </g>
+              <path d="M18 31C17.4477 31 17 31.4477 17 32C17 32.5523 17.4477 33 18 33V31ZM44.7071 32.7071C45.0976 32.3166 45.0976 31.6834 44.7071 31.2929L38.3431 24.9289C37.9526 24.5384 37.3195 24.5384 36.9289 24.9289C36.5384 25.3195 36.5384 25.9526 36.9289 26.3431L42.5858 32L36.9289 37.6569C36.5384 38.0474 36.5384 38.6805 36.9289 39.0711C37.3195 39.4616 37.9526 39.4616 38.3431 39.0711L44.7071 32.7071ZM18 33H44V31H18V33Z" fill="#F2F2F2"/>
+              <defs>
+              <filter id="filter0_i_482_1323" x="0" y="0" width="62" height="66" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+              <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+              <feOffset dy="4"/>
+              <feGaussianBlur stdDeviation="2"/>
+              <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+              <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+              <feBlend mode="normal" in2="shape" result="effect1_innerShadow_482_1323"/>
+              </filter>
+              </defs>
+            </svg>                            
+          </div>
+        </div>    
+      </div>
+    </section>
+
+    <!--FAQ Section-->
+    <section id="faq" style="background: #E2E6E9;" class="p-10">
+      <div class="container">
+        <h3 class="text-center heading-h3 mb-5">Frequently Asked Questions</h3>
+          <div class="col-md-10 offset-md-2">            
+            <div class="faq-1 d-flex justify-content-between w-75 bg-white p-5 mb-2">
+              <div class="col-md-8">
+                <h4 class="mb-4 title-02">How long should a car repair take?</h4>
+                <p class="body-01 greyed">I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair 
+                  my car I have got my car repaired at Finsweet I have got my car repaired 
+                  at Finsweet</p>
+              </div>
+              <div>
+                <svg width="52" height="48" viewBox="0 0 52 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="0.869385" width="51.0784" height="48" fill="#FF6433"/>
+                  <line x1="18.8955" y1="24" x2="33.9216" y2="24" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                </svg>              
+              </div>
+            </div>
+            <div class="faq-2 d-flex justify-content-between w-75 bg-white p-5 mb-2">
+              <div class="col-md-8">
+                <h4 class="mb-4 title-02">How do I schedule my car's appointment?</h4>
+                <p></p>                
+              </div>
+              <div>
+                <svg width="52" height="48" viewBox="0 0 52 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="0.869385" width="51.0784" height="48" fill="#FF6433"/>
+                  <line x1="18.8955" y1="24" x2="33.9216" y2="24" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                  <line x1="26.4727" y1="31" x2="26.4727" y2="17" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                </svg>                                
+              </div>
+            </div>
+            <div class="faq-3 d-flex justify-content-between w-75 bg-white p-5 mb-2">
+              <div class="col-md-8">
+                <h4 class="mb-4 title-02">What are the repair services provided?</h4>
+                <p></p>
+              </div>
+              <div>
+                <svg width="52" height="48" viewBox="0 0 52 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="0.869385" width="51.0784" height="48" fill="#FF6433"/>
+                  <line x1="18.8955" y1="24" x2="33.9216" y2="24" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                  <line x1="26.4727" y1="31" x2="26.4727" y2="17" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                </svg>                               
+              </div>
+            </div>
+            <div class="faq-4 d-flex justify-content-between w-75 bg-white p-5 mb-2">
+              <div class="col-md-8">
+                <h4 class="mb-4 title-02">How do I find auto body shops near me?</h4>
+                <p></p>
+              </div>
+              <div>
+                <svg width="52" height="48" viewBox="0 0 52 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="0.869385" width="51.0784" height="48" fill="#FF6433"/>
+                  <line x1="18.8955" y1="24" x2="33.9216" y2="24" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                  <line x1="26.4727" y1="31" x2="26.4727" y2="17" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                </svg>                               
+              </div>
+            </div>
+            <div class="faq-5 d-flex justify-content-between w-75 bg-white p-5">
+              <div class="col-md-8">
+                <h4 class="mb-4 title-02">Genuine spare parts during car repair?</h4>
+                <p></p>
+              </div>
+              <div>
+                <svg width="52" height="48" viewBox="0 0 52 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="0.869385" width="51.0784" height="48" fill="#FF6433"/>
+                  <line x1="18.8955" y1="24" x2="33.9216" y2="24" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                  <line x1="26.4727" y1="31" x2="26.4727" y2="17" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                </svg>                               
+              </div>
+            </div>            
+          </div>        
+      </div>
+    </section>
+
+    <!--Footer Section--> 
+    <footer class="p-10" style="background: #1E1B1B; opacity: 0.98; color: #fff;">
+      <div class="container">
+        <div id="footer-address" class="px-5 col-md-12">
+          <div class="d-flex justify-content-between">
+            <div class="text">
+              <h3 class="heading-h3 col-8 pb-5">Get in touch with us for your service</h3>
+              <div class="social-links d-flex w-25 justify-content-between">
+                <img src="img/facebook.png" class="img-fluid" alt="Finsweet facebook">
+                <img src="img/twitter.png" class="img-fluid" alt="Finsweet twitter">
+                <img src="img/instagram.png" class="img-fluid" alt="Finsweet instagram">
+                <img src="img/linkedin.png" class="img-fluid" alt="Finsweet linkedin">
+              </div>
+            </div>
+            <div class="address">
+              <div>
+                <p class="title-02"><span class="body-01 text-white light">Help line Number</span><br>
+                1800 265 24 52</p>
+              </div>
+              <div class="mb-3">
+                <p class="title-02"><span class="body-01 text-white light">Address</span><br>
+                NH 234   Public Square San Francisco  65368</p>
+              </div>
+              <div>
+                <p class="title-02"><span class="body-01 text-white light">We are open</span><br>
+                Monday to Friday 9:00AM to 10:00AM</p>
+              </div>
+            </div>
+          </div>
+        </div>       
+      </div>
+    </footer>
+    <section style="background: #000;" class="p-5">
+      <div class="container text-white">
+        <div id="footer-links" class="px-5 col-md-12">
+          <div class="d-flex justify-content-between w-100">
+            <div><a href="#"><img src="img/footer-logo.png" alt="Finsweet"></a></div>
+            <div class="col-md-5">
+              <ul class="d-flex justify-content-between">
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About us</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="nav-link">Contact us</a></li>
+              </ul>
+            </div>
+            <div>
+              <p class="light">@ Copyright Finsweet 2021</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>   
+</body>
+</html>

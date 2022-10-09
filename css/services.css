@@ -1,0 +1,13 @@
+.light-grey {
+    color: #F2F2F2 !important;
+}
+
+.mb-10 {    
+    margin-bottom: 80px;
+}
+
+#service-select .grid {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    gap: 30px;
+}

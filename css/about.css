@@ -1,0 +1,25 @@
+.w-33 {
+    width: 33%;
+}
+
+#ourServices-section .body-01 {    
+    font-size: 16.5px;    
+}
+
+#ourMission-section .title-02 {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.text-bg-orange {
+    background: rgba(248, 91, 41, 0.9);
+    color: #fff;
+}
+
+.text-bg-purple {
+    background: rgba(116, 67, 202, 0.9);
+}
+
+.h-450 {
+    min-height: 350px;
+}

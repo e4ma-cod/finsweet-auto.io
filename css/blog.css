@@ -1,0 +1,28 @@
+.blog-hero {
+    background: url(../img/blog-hero-img.png) no-repeat;
+    background-position: start;
+    background-size: contain;
+    width: 100%;
+    min-height: 624px;    
+}
+
+.over-lay {
+    background: #1E1B1B;  
+    mix-blend-mode: hard-light;
+    opacity: 0.8;           
+}
+
+.h-small {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FF6433;
+}
+
+.py-20 {
+    padding: 156.2px 0px;
+}
+
+.py-25 {
+    padding: 268.5px 0px;
+}

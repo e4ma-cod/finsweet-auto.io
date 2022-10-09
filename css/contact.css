@@ -1,0 +1,17 @@
+#input-control {
+    background: #F2F2F2;
+    border-radius: 2px;
+}
+
+select {
+    border: none !important;
+}
+
+#head-section .title-02 {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.mb-480 {
+    margin-bottom: 480px !important;
+}
